@@ -35,6 +35,10 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
 
 ```{r, echo=T, results='hide', warning=F, message=FALSE}
 library(tidyverse)
+
+library(devtools)
+devtools::install_github("nschiett/fishualize", force = TRUE)
+library(fishualize)
 ```
 
 ### The biology
